@@ -78,6 +78,13 @@ h3{color:var(--navy-800);line-height:1.3}
 .cred-list li{border:1px solid var(--slate-200);border-left:4px solid var(--navy-700);border-radius:10px;padding:.85rem 1rem;background:#fff;color:var(--navy-800)}
 .cred-list.compact{grid-template-columns:1fr}
 .cred-list.compact li{border-left-color:var(--slate-200);color:#334155;font-size:.97rem}
+.pursue-intro{margin:-.15rem 0 1rem;color:#334155}
+.pursue-list{list-style:none;padding:0;margin:0 0 2.25rem;display:grid;gap:.75rem}
+.pursue-list li{border:1px dashed #d5deea;border-left:4px solid var(--gold);border-radius:10px;padding:.9rem 1rem;background:var(--slate-50);color:#334155}
+.pursue-list strong{color:var(--navy-800)}
+.status{display:inline;padding:.08rem .45rem;border-radius:999px;font-weight:700;font-size:.92rem;line-height:1.45;vertical-align:baseline}
+.status-progress{background:rgba(201,169,110,.32);color:#6b5220}
+.status-planned{background:#fff;color:var(--slate-600);border:1px solid var(--slate-200)}
 
 /* Contact */
 .contact{background:linear-gradient(160deg,var(--navy-800),var(--navy-900));color:#e2e8f0;text-align:center}
