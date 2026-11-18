@@ -180,7 +180,8 @@ details p{color:#45525f;padding-right:2.5rem}
 .contact-box::after{content:"";position:absolute;width:420px;height:420px;right:-140px;top:-160px;border-radius:50%;background:radial-gradient(circle,rgba(201,164,92,.35),transparent 65%)}
 .contact-box > *{position:relative;z-index:1}
 .contact-box h2{color:#fff}
-.contact-box p{max-width:36em;margin-inline:auto;font-size:1.1rem}
+.contact-box p{max-width:40em;margin-inline:auto;font-size:1.1rem}
+.contact-box p.contact-note{margin-top:1.15rem;font-size:.92rem;color:#c9d6e0}
 .contact .btn-primary{background:var(--brass);color:var(--navy)}
 .contact .btn-primary:hover{background:#d6b46d}
 
@@ -206,12 +207,14 @@ details p{color:#45525f;padding-right:2.5rem}
   .system-grid{grid-template-columns:1fr}
   .proof-strip{grid-template-columns:repeat(2,1fr)}
 }
-@media (max-width:880px){
+@media (max-width:1080px){
   .nav-toggle{display:block}
   .site-nav{position:absolute;top:68px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:var(--paper);border-bottom:1px solid var(--line);padding:.5rem 1.25rem 1.25rem;display:none}
   .site-nav.open{display:flex}
-  .site-nav a{padding:.8rem 0;border-bottom:1px solid var(--line)}
+  .site-nav a{padding:.8rem 0;border-bottom:1px solid var(--line);font-size:1rem}
   .site-nav .btn{margin-top:.8rem;border:0}
+}
+@media (max-width:880px){
   .hero-grid,.gov-grid,.offers-grid,.lead-roles{grid-template-columns:1fr}
   .gov-intro{position:static}
   .cards-3{grid-template-columns:1fr}
